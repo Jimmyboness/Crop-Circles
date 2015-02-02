@@ -1,0 +1,112 @@
+@import "reset";
+
+/* GENERAL */
+
+html, body {
+        font-size: 100%;
+        // margin: 0;
+        // padding: 0;
+        height: 100%;
+    }
+
+    body {
+        line-height: 1;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Alegreya", Helvetica;
+        line-height: 1.3;
+    }
+
+    section {
+        // background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        // background-position: 0 0;
+        min-height: 100%;
+        position: relative;
+    }
+
+    .text {
+        padding-top: 50px;
+        width: 80%;
+        margin: auto;
+        font-size: 24px;
+        text-weight: bold;
+    }
+
+    h2 {
+    }
+
+    .one {
+        background-image: url(/images/swirl_pattern.png);
+    }
+
+    .wrap {
+        width: 80%;
+        margin: auto;
+    }
+
+    .one-text {
+        h1 { font-size: 54px;
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+            border-bottom: 7px solid black;
+        }
+        p { font-weight: bold;
+            text-align: center;
+        }
+
+        nav {
+            font-size: 96px;
+            text-align: center;
+                a {
+                    text-decoration: none;
+
+                        &:hover {
+                            color: white;
+                            font-weight: bolder;
+                        }
+                        &:visited {
+                            color: green;}
+
+                }
+        }
+
+    }
+
+    .two {
+        background-image: url(/images/symphony.png);
+    }
+
+    .two-text {
+        font-size: 0;
+            img {
+                display: inline-block;
+                width: 50%;
+            }
+    }
+
+    .three {
+        background-image: url(/images/skulls.png);
+    }
+
+    .three-text {
+        font-size: 24px;
+        text-align: center;
+        bottom: 100px;
+        a {
+            font-size: 96px;
+            text-align: center;
+            text-decoration: none;
+            color: green;
+                &:hover {
+                    color: white;
+                }
+        }
+    }

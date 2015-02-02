@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/* GENERAL */
+html, body {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alegreya", Helvetica;
+  line-height: 1.3;
+}
+
+section {
+  background-attachment: fixed;
+  background-repeat: repeat;
+  min-height: 100%;
+  position: relative;
+}
+
+.text {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  font-size: 24px;
+  text-weight: bold;
+}
+
+.one {
+  background-image: url(/images/swirl_pattern.png);
+}
+
+.wrap {
+  width: 80%;
+  margin: auto;
+}
+
+.one-text h1 {
+  font-size: 54px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 7px solid black;
+}
+.one-text p {
+  font-weight: bold;
+  text-align: center;
+}
+.one-text nav {
+  font-size: 96px;
+  text-align: center;
+}
+.one-text nav a {
+  text-decoration: none;
+}
+.one-text nav a:hover {
+  color: white;
+  font-weight: bolder;
+}
+.one-text nav a:visited {
+  color: green;
+}
+
+.two {
+  background-image: url(/images/symphony.png);
+}
+
+.two-text {
+  font-size: 0;
+}
+.two-text img {
+  display: inline-block;
+  width: 50%;
+}
+
+.three {
+  background-image: url(/images/skulls.png);
+}
+
+.three-text {
+  font-size: 24px;
+  text-align: center;
+  bottom: 100px;
+}
+.three-text a {
+  font-size: 96px;
+  text-align: center;
+  text-decoration: none;
+  color: green;
+}
+.three-text a:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=screen.css.map */
